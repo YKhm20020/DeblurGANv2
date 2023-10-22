@@ -2,4 +2,5 @@
 *.pyc
 #fpn_inception.h5
 #fpn_mobilenet.h5
+inceptionresnetv2-520b38e4.pth
 *.h5

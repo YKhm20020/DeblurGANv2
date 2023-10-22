@@ -134,9 +134,9 @@ def get_files():
 
 
 if __name__ == '__main__':
-  #  Fire(main)
-#增加批量处理图片：
-    img_path=get_files()
-    for i in img_path:
-        main(i)
-    # main('test_img/tt.mp4')
+#   #  Fire(main)
+# #增加批量处理图片：
+#     img_path=get_files()
+#     for i in img_path:
+#         main(i)
+     main('test_img/tt.mp4')
