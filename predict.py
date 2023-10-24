@@ -12,6 +12,9 @@ from tqdm import tqdm
 from aug import get_normalize
 from models.networks import get_generator
 
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 class Predictor:
     def __init__(self, weights_path: str, model_name: str = ''):
@@ -139,4 +142,4 @@ if __name__ == '__main__':
 #     img_path=get_files()
 #     for i in img_path:
 #         main(i)
-     main('test_img/tt.mp4')
+     main('test_img/000027.png')
