@@ -142,4 +142,4 @@ if __name__ == '__main__':
 #     img_path=get_files()
 #     for i in img_path:
 #         main(i)
-     main('test_img/000027.png')
+     main('test_img/blur_sample3.png')
